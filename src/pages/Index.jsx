@@ -4,7 +4,7 @@ import { FaHome, FaNewspaper, FaInfoCircle } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="container.xl" p={0} bg="#fff1e5">
       <Flex as="nav" bg="gray.800" color="white" p={4} justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg">
           Financial Times
@@ -50,7 +50,7 @@ const Index = () => {
             </Box>
           </VStack>
         </Box>
-        <Box flex="1" p={4} bg="gray.50" borderRadius="md" ml={{ md: 4 }} mt={{ base: 4, md: 0 }}>
+        <Box flex="1" p={4} bg="gray.200" borderRadius="md" ml={{ md: 4 }} mt={{ base: 4, md: 0 }}>
           <Heading as="h2" size="md" mb={4}>
             Sidebar
           </Heading>
